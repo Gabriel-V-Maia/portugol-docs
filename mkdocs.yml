@@ -1,0 +1,56 @@
+site_name: Portugol
+site_description: Interpretador e compilador para a linguagem Portugol, escrito em C.
+site_url: https://Gabriel-V-Maia.github.io/portugol
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: pt-BR
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+  font:
+    text: Instrument Sans
+    code: JetBrains Mono
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+
+extra_css:
+  - assets/css/custom.css
+
+nav:
+  - Início: index.md
+  - Começando:
+      - Instalação: instalacao.md
+      - Primeiro Programa: primeiro-programa.md
+  - Referência:
+      - Tipos de Dados: referencia/tipos.md
+      - Funções: referencia/funcoes.md
+      - Controle de Fluxo: referencia/controle.md
+      - Expressões: referencia/expressoes.md
+  - Exemplos:
+      - Fibonacci: exemplos/fibonacci.md
+      - Fatorial: exemplos/fatorial.md
+  - Roadmap: roadmap.md
+  - Licença: licenca.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search:
+      lang: pt

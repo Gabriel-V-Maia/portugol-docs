@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Instrument+Sans:wght@400;500;600&display=swap');
+
+/* ── CORES BASE ── */
+:root {
+  --gold: #f0b429;
+  --gold-dark: #c8920a;
+  --gold-faint: #fdf5e0;
+  --bg: #f6f4f0;
+  --sidebar-bg: #efede8;
+  --border: #dedad0;
+  --text: #2a2520;
+  --muted: #8a8070;
+}
+
+/* ── HEADER ESCURO ── */
+.md-header {
+  background-color: #1c1a16 !important;
+  border-bottom: 2px solid var(--gold);
+  box-shadow: none;
+}
+
+.md-header__title {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 600;
+  color: #f0e8d0 !important;
+  font-size: 1rem;
+}
+
+/* "Portugol" em amarelo no título */
+.md-header__title::after {
+  content: '';
+}
+
+.md-ellipsis {
+  color: #f0e8d0;
+}
+
+/* logo mark </>  */
+.md-logo {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--gold) !important;
+  background: #2a2518;
+  border: 1px solid #4a3c10;
+  border-radius: 5px;
+  padding: 3px 7px;
+  line-height: 1;
+}
+
+/* nav links do header */
+.md-tabs {
+  background-color: #201e18 !important;
+  border-bottom: 1px solid #2e2a1c;
+}
+
+.md-tabs__link {
+  color: #7a7060 !important;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: var(--gold) !important;
+}
+
+/* search */
+.md-search__form {
+  background-color: #2a2518 !important;
+  border: 1px solid #4a3c10;
+  border-radius: 6px;
+}
+
+.md-search__input {
+  color: #d4c888 !important;
+}
+
+.md-search__input::placeholder {
+  color: #6a5e30 !important;
+}
+
+/* ── FUNDO GERAL (branco/creme como Material default) ── */
+.md-main {
+  background-color: var(--bg);
+}
+
+.md-content {
+  background-color: #fff;
+}
+
+/* ── SIDEBAR ── */
+.md-sidebar {
+  background-color: var(--sidebar-bg);
+}
+
+.md-nav__title {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #aaa090;
+}
+
+.md-nav__link {
+  color: #7a7060;
+  font-size: 0.82rem;
+}
+
+.md-nav__link:hover {
+  color: var(--text);
+}
+
+.md-nav__link--active {
+  color: var(--gold-dark) !important;
+  font-weight: 500;
+  border-left: 2px solid var(--gold);
+  padding-left: 8px;
+  background-color: var(--gold-faint);
+  border-radius: 0 4px 4px 0;
+}
+
+/* ── CÓDIGO ── */
+.highlight pre,
+.md-typeset pre {
+  background-color: #1c1a14 !important;
+  border: 1px solid #2e2a1c;
+  border-radius: 8px;
+}
+
+.md-typeset code {
+  background-color: #f0ece4;
+  color: #8a6400;
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-size: 0.82em;
+}
+
+/* copy button */
+.md-clipboard {
+  color: #6a5e30 !important;
+}
+.md-clipboard:hover {
+  color: var(--gold) !important;
+}
+
+/* ── HEADINGS ── */
+.md-typeset h1 {
+  color: #1c1a14;
+  font-weight: 700;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 8px;
+}
+
+.md-typeset h2 {
+  color: #2a2520;
+  font-weight: 600;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 4px;
+}
+
+.md-typeset h3 {
+  color: var(--gold-dark);
+  font-weight: 600;
+}
+
+/* ── ADMONITIONS ── */
+.md-typeset .admonition,
+.md-typeset details {
+  border-color: var(--gold) !important;
+  border-radius: 6px;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  background-color: var(--gold-faint) !important;
+  color: var(--gold-dark) !important;
+}
+
+/* ── FOOTER MÍNIMO ── */
+.md-footer {
+  background-color: #1c1a16;
+  border-top: 1px solid #2e2a1c;
+}
+
+.md-footer-meta {
+  background-color: #181510;
+}
+
+.md-footer__link {
+  color: #6a5e30 !important;
+}
+
+.md-footer__link:hover {
+  color: var(--gold) !important;
+}
+
+/* ── TABELAS ── */
+.md-typeset table:not([class]) th {
+  background-color: #1c1a14;
+  color: var(--gold);
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: var(--gold-faint);
+}
+
+/* ── LINKS ── */
+.md-typeset a {
+  color: var(--gold-dark);
+}
+
+.md-typeset a:hover {
+  color: var(--gold);
+}
