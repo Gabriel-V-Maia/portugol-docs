@@ -10,6 +10,15 @@
   --border: #dedad0;
   --text: #2a2520;
   --muted: #8a8070;
+
+  /* sobrescreve variáveis internas do Material */
+  --md-primary-fg-color:        #f0b429;
+  --md-primary-fg-color--light: #f5c84a;
+  --md-primary-fg-color--dark:  #c8920a;
+  --md-primary-bg-color:        #1c1a16;
+  --md-accent-fg-color:         #f0b429;
+  --md-accent-fg-color--transparent: #f0b42920;
+  --md-typeset-a-color:         #c8920a;
 }
 
 /* ── HEADER ESCURO ── */
@@ -111,12 +120,13 @@
   color: var(--text);
 }
 
-.md-nav__link--active {
-  color: var(--gold-dark) !important;
+.md-nav__link--active,
+.md-nav__item--active > .md-nav__link {
+  color: #c8920a !important;
   font-weight: 500;
-  border-left: 2px solid var(--gold);
+  border-left: 2px solid #f0b429 !important;
   padding-left: 8px;
-  background-color: var(--gold-faint);
+  background-color: #fdf5e0 !important;
   border-radius: 0 4px 4px 0;
 }
 
