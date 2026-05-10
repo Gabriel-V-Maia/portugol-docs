@@ -37,6 +37,7 @@ nav:
       - Instalação: instalacao.md
       - Primeiro Programa: primeiro-programa.md
   - Referência:
+      - Sintaxe: referencia/sintaxe
       - Tipos de Dados: referencia/tipos.md
       - Funções: referencia/funcoes.md
       - Controle de Fluxo: referencia/controle.md
