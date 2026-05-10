@@ -1,6 +1,6 @@
 site_name: Portugol
-site_description: Interpretador e compilador para a linguagem Portugol, escrito em C.
-site_url: https://Gabriel-V-Maia.github.io/portugol
+site_description: Guia em como programar portugol!
+site_url: https://Gabriel-V-Maia.github.io/portugol-docs/
 
 theme:
   name: material
