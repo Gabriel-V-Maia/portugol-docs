@@ -1,28 +1,36 @@
 site_name: Portugol
 site_description: Guia em como programar portugol!
 site_url: https://Gabriel-V-Maia.github.io/portugol-docs/
-
 theme:
   name: material
   custom_dir: overrides
   language: pt-BR
   palette:
-    scheme: default
-    primary: custom
-    accent: custom
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
   font:
     text: Instrument Sans
     code: JetBrains Mono
+  logo: assets/LOGO.png
+  favicon: assets/LOGO.png
   features:
     - navigation.sections
     - navigation.expand
     - navigation.top
     - content.code.copy
     - content.code.annotate
-
 extra_css:
   - assets/css/custom.css
-
 nav:
   - Início: index.md
   - Começando:
@@ -38,7 +46,6 @@ nav:
       - Fatorial: exemplos/fatorial.md
   - Roadmap: roadmap.md
   - Licença: licenca.md
-
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -50,7 +57,6 @@ markdown_extensions:
   - pymdownx.details
   - attr_list
   - md_in_html
-
 plugins:
   - search:
       lang: pt
