@@ -4,6 +4,8 @@ Portugol é uma linguagem de programação simples de alto nível, feita para in
 
 Essa sintaxe tenta misturar elementos da linguagem de programação "C" de maneira simplificada e "portuguesiada".
 
+Este portugol não é igual o portugol original, mas sim uma versão modificada criada para deixar ela mais funcional.
+
 # Prefácio
 
 Para começar, veja como [instalar o Portugol](instalacao.md) e criar o seu [primeiro programa](primeiro-programa.md).
