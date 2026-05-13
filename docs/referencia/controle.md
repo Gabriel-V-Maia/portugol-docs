@@ -36,7 +36,7 @@ para (inteiro i = 0; i < 10; i++) {
   escreva("${i}\n")
 }
 ```
-**# Controle de Fluxo
+# Controle de Fluxo
 
 ## Condicional — `se` / `senao`
 
