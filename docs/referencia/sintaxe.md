@@ -28,18 +28,4 @@ nulo funcao saudar(cadeia nome) {
 }
 ```
 
-# Interpolação 
-
-Use `${}` dentro de strings para interpolação de expressões:
-
-```portugol
-escreva("O resultado é: ${2 + 2}\n")
-cadeia teste = "WOw!"
-escreva("${teste}\n")
-```
-Saida esperada:
-```
-O resultado é 4
-```
-
 
