@@ -21,7 +21,6 @@ theme:
   font:
     text: Instrument Sans
     code: JetBrains Mono
-  logo: assets/LOGO.png
   favicon: assets/LOGO.png
   features:
     - navigation.sections
